@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
     <style>
       body {
         padding-top: 60px;
@@ -54,7 +55,7 @@
           </div>
         </div>
       </div>
-      <div class="page-header">
+      <div class="page-header title">
         <h1>Chat de ejemplo</h1>
       </div>
       <div class="row">
@@ -85,7 +86,7 @@
               <div class="span2"><input type="text" class="input-block-level" ng-model="name" ng-change="setName()" placeholder="Tu nombre"></div>
               <div class="input-append span7">
                 <input type="text" class="span6" ng-model="text" placeholder="Mensaje">
-                <input type="submit" class="span1 btn btn-primary" value="Enviar" ng-disabled="!text">
+                <input type="submit" class=" btn btn-success enviar" value="Enviar " ng-disabled="!text">
               </div>
             </form>
           </div>
